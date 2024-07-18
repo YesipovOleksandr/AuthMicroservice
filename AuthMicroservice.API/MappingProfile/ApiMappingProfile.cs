@@ -1,6 +1,5 @@
 ﻿using AuthMicroservice.API.ViewModels;
 using AutoMapper;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace AuthMicroservice.API.MappingProfile
 {
