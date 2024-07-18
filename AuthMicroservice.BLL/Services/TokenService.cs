@@ -29,7 +29,7 @@ namespace AuthMicroservice.BLL.Services
 
             var claims = new List<Claim>
         {
-            new Claim(ClaimTypes.Name, "AnonymousUser"),
+            new Claim(ClaimTypes.NameIdentifier,Guid.NewGuid().ToString()),
             new Claim("Role", Role.FreeUser.ToString())
         };
 
