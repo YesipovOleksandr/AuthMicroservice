@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AuthMicroservice.DAL\AuthMicroservice.DAL.csproj" />
     <ProjectReference Include="..\AuthMicroservice.Domain\AuthMicroservice.Domain.csproj" />
   </ItemGroup>
